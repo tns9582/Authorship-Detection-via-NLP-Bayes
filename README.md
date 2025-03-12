@@ -3,23 +3,23 @@ This project analyzes textual data to predict the most likely author of an essay
 
 ## Key data science methods used:
 
-Text preprocessing (tokenization, stopword removal, normalization)
-Feature engineering using word frequencies and function word analysis
+### Text preprocessing (tokenization, stopword removal, normalization)
+### Feature engineering using word frequencies and function word analysis
 Naive Bayes classification to build author profiles
 Model evaluation using accuracy and confusion matrices
 
 ## Methodology
-# Data Sources
+Data Sources
 Essays grouped by authors: Hamilton, Madison, Jay, and Disputed
 Stopwords file for filtering common language terms
 
-# Preprocessing
+Preprocessing
 Lowercasing text
 Extracting words using regex
 Removing stopwords
 Stemming with the Lancaster stemmer
 
-# Modeling
+Modeling
 Calculated prior probabilities based on undisputed essays
 Computed word likelihood for each author
 Built a descriptive model using Bayes Rule
