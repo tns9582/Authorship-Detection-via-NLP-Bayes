@@ -3,10 +3,10 @@ This project analyzes textual data to predict the most likely author of an essay
 
 ## Key data science methods used:
 
-### Text preprocessing (tokenization, stopword removal, normalization)
-### Feature engineering using word frequencies and function word analysis
-Naive Bayes classification to build author profiles
-Model evaluation using accuracy and confusion matrices
+* Text preprocessing (tokenization, stopword removal, normalization)
+* Feature engineering using word frequencies and function word analysis
+* Naive Bayes classification to build author profiles
+* Model evaluation using accuracy and confusion matrices
 
 ## Methodology
 Data Sources
