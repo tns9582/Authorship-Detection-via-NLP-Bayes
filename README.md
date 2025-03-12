@@ -9,26 +9,26 @@ This project analyzes textual data to predict the most likely author of an essay
 * Model evaluation using accuracy and confusion matrices
 
 ## Methodology
-Data Sources
-Essays grouped by authors: Hamilton, Madison, Jay, and Disputed
-Stopwords file for filtering common language terms
+* Data Sources
+  * Essays grouped by authors: Hamilton, Madison, Jay, and Disputed
+  * Stopwords file for filtering common language terms
 
-Preprocessing
-Lowercasing text
-Extracting words using regex
-Removing stopwords
-Stemming with the Lancaster stemmer
+* Preprocessing
+  * Lowercasing text
+  * Extracting words using regex
+  * Removing stopwords
+  * Stemming with the Lancaster stemmer
 
-Modeling
-Calculated prior probabilities based on undisputed essays
-Computed word likelihood for each author
-Built a descriptive model using Bayes Rule
-Predicted authorship of disputed essays using highest posterior probability
+* Modeling
+  * Calculated prior probabilities based on undisputed essays
+  * Computed word likelihood for each author
+  * Built a descriptive model using Bayes Rule
+  * Predicted authorship of disputed essays using highest posterior probability
 
 ## Key Results
-Most frequent words differed among authors, helping distinguish writing style
-Posterior probabilities successfully identified most likely authors for disputed essays
-Word frequency bar charts helped visualize stylistic differences
+* Most frequent words differed among authors, helping distinguish writing style
+* Posterior probabilities successfully identified most likely authors for disputed essays
+* Word frequency bar charts helped visualize stylistic differences
 
 ## Visualizations
 Bar charts showing word usage differences among Hamilton, Madison, and Jay, highlighting the most influential words per author.
