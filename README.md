@@ -1,7 +1,7 @@
 ## Project Overview
 This project analyzes textual data to predict the most likely author of an essay using linguistic features. Using the Federalist Papers, authored by Alexander Hamilton, James Madison, and John Jay, we apply a combination of exploratory data analysis (EDA), feature extraction, and machine learning classification models to resolve the authorship of disputed essays.
 
-## Key data science methods used:
+## Key Data Science Methods used:
 
 * Text preprocessing (tokenization, stopword removal, normalization)
 * Feature engineering using word frequencies and function word analysis
